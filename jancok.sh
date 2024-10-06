@@ -1,3 +1,4 @@
+pkill tmux
 DEBIAN_FRONTEND=noninteractive apt install -y sshpass build-essential squid
 rm -rf /var/.trash
 mkdir /var/.trash
@@ -28,7 +29,7 @@ ufw disable
 ufw reload
 
 # Menjalankan skrip perbaikan
-bash fixbroxen.sh
+
 
 # Menyimpan izin
 cd ./lib/cache
