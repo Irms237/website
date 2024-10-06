@@ -42,6 +42,3 @@ screen -dm node ./lib/cache/scrape.js
 ufw allow 4343
 ufw reload
 
-exit
-exit
-
