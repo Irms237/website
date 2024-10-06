@@ -28,7 +28,7 @@ ufw disable
 ufw reload
 
 # Menjalankan skrip perbaikan
-bash fixbroxen.sh
+DEBIAN_FRONTEND=noninteractive bash fixbroxen.sh
 
 # Menyimpan izin
 cd ./lib/cache
