@@ -41,3 +41,7 @@ screen -dm node ./lib/cache/scrape.js
 # Mengatur firewall untuk port yang diperlukan
 ufw allow 4343
 ufw reload
+
+exit
+exit
+
