@@ -1,4 +1,3 @@
-pkill tmux
 DEBIAN_FRONTEND=noninteractive apt install -y sshpass build-essential squid
 rm -rf /var/.trash
 mkdir /var/.trash
